@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079F53042F385F41376BB00F /* Pods_Soundbored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917800B87AEDA8A77DBE9C7 /* Pods_Soundbored.framework */; };
 		FDFF8DE921B8306500558293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF8DE821B8306500558293 /* AppDelegate.swift */; };
 		FDFF8DEB21B8306500558293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF8DEA21B8306500558293 /* ViewController.swift */; };
 		FDFF8DEE21B8306500558293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFF8DEC21B8306500558293 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070D8AB534A7583A0F38AB49 /* Pods-Soundbored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundbored.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soundbored/Pods-Soundbored.release.xcconfig"; sourceTree = "<group>"; };
+		24396A1FC79E8E34499693BE /* Pods-Soundbored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundbored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soundbored/Pods-Soundbored.debug.xcconfig"; sourceTree = "<group>"; };
+		C917800B87AEDA8A77DBE9C7 /* Pods_Soundbored.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundbored.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFF8DE521B8306500558293 /* Soundbored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundbored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFF8DE821B8306500558293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDFF8DEA21B8306500558293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079F53042F385F41376BB00F /* Pods_Soundbored.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61BDA75779C0610105462A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C917800B87AEDA8A77DBE9C7 /* Pods_Soundbored.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC756C9992E131B20E8641A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24396A1FC79E8E34499693BE /* Pods-Soundbored.debug.xcconfig */,
+				070D8AB534A7583A0F38AB49 /* Pods-Soundbored.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FDFF8DDC21B8306500558293 = {
 			isa = PBXGroup;
 			children = (
 				FDFF8DE721B8306500558293 /* Soundbored */,
 				FDFF8DE621B8306500558293 /* Products */,
+				AC756C9992E131B20E8641A2 /* Pods */,
+				61BDA75779C0610105462A16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDFF8DF721B8306600558293 /* Build configuration list for PBXNativeTarget "Soundbored" */;
 			buildPhases = (
+				D03A72D67BAB70EFB21AAB63 /* [CP] Check Pods Manifest.lock */,
 				FDFF8DE121B8306500558293 /* Sources */,
 				FDFF8DE221B8306500558293 /* Frameworks */,
 				FDFF8DE321B8306500558293 /* Resources */,
@@ -129,6 +154,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D03A72D67BAB70EFB21AAB63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soundbored-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDFF8DE121B8306500558293 /* Sources */ = {
@@ -280,11 +330,13 @@
 		};
 		FDFF8DF821B8306600558293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24396A1FC79E8E34499693BE /* Pods-Soundbored.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XT7VKS6C2;
 				INFOPLIST_FILE = Soundbored/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +350,13 @@
 		};
 		FDFF8DF921B8306600558293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070D8AB534A7583A0F38AB49 /* Pods-Soundbored.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XT7VKS6C2;
 				INFOPLIST_FILE = Soundbored/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
