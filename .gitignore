@@ -1,2 +1,11 @@
-Pods/
+Graphics
+
+# Xcode
+build
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+*.xcworkspace
+
+# CocoaPods
+Pods
 Podfile.lock

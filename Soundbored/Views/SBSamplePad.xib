@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cuprum-Regular.ttf">
+            <string>Cuprum-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SBSamplePad" customModule="Soundbored" customModuleProvider="target">
+            <connections>
+                <outlet property="colorView" destination="x9p-do-ZK3" id="Q8t-yv-HeB"/>
+                <outlet property="sampleButton" destination="FjD-dt-Hhe" id="LkW-nU-KBd"/>
+                <outlet property="sampleLabel" destination="xrV-VV-ZVL" id="mbN-7e-Fmt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x9p-do-ZK3">
+                    <rect key="frame" x="8" y="8" width="104" height="104"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjD-dt-Hhe">
+                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                    <state key="normal" backgroundImage="Normal"/>
+                    <state key="selected" backgroundImage="Selected"/>
+                    <state key="highlighted" backgroundImage="Highlighted"/>
+                    <connections>
+                        <action selector="buttonPressed:" destination="-1" eventType="touchDown" id="HON-Z5-bqM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrV-VV-ZVL">
+                    <rect key="frame" x="12" y="51" width="96" height="18.5"/>
+                    <fontDescription key="fontDescription" name="Cuprum-Regular" family="Cuprum" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="x9p-do-ZK3" firstAttribute="leading" secondItem="FjD-dt-Hhe" secondAttribute="leading" constant="8" id="B3h-Eh-IFc"/>
+                <constraint firstItem="xrV-VV-ZVL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CKd-lr-HbO"/>
+                <constraint firstItem="x9p-do-ZK3" firstAttribute="top" secondItem="FjD-dt-Hhe" secondAttribute="top" constant="8" id="EdC-wh-7gI"/>
+                <constraint firstItem="xrV-VV-ZVL" firstAttribute="width" secondItem="FjD-dt-Hhe" secondAttribute="width" constant="-24" id="Er6-3U-gOk"/>
+                <constraint firstItem="FjD-dt-Hhe" firstAttribute="trailing" secondItem="x9p-do-ZK3" secondAttribute="trailing" constant="8" id="HSN-Pk-nea"/>
+                <constraint firstItem="FjD-dt-Hhe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Njq-bk-vY2"/>
+                <constraint firstItem="xrV-VV-ZVL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ZpI-lf-gO8"/>
+                <constraint firstItem="FjD-dt-Hhe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="geg-Ke-yAm"/>
+                <constraint firstAttribute="bottom" secondItem="FjD-dt-Hhe" secondAttribute="bottom" id="tXy-rE-IJd"/>
+                <constraint firstAttribute="trailing" secondItem="FjD-dt-Hhe" secondAttribute="trailing" id="wUw-kI-0u8"/>
+                <constraint firstItem="FjD-dt-Hhe" firstAttribute="bottom" secondItem="x9p-do-ZK3" secondAttribute="bottom" constant="8" id="zAC-zh-b6M"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="321.60000000000002" y="217.69115442278863"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Highlighted" width="80" height="80"/>
+        <image name="Normal" width="80" height="80"/>
+        <image name="Selected" width="80" height="80"/>
+    </resources>
+</document>

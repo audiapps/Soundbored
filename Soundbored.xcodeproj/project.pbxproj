@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		079F53042F385F41376BB00F /* Pods_Soundbored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917800B87AEDA8A77DBE9C7 /* Pods_Soundbored.framework */; };
+		FD1B4EBC224F85A90076EFE8 /* debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B4EBB224F85A90076EFE8 /* debounce.swift */; };
+		FD3879B3224AE9B200BF64AB /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3879B2224AE9B200BF64AB /* AudioEngine.swift */; };
+		FD3879BB224C1A7D00BF64AB /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = FD3879BA224C1A7D00BF64AB /* Samples */; };
+		FD3879BD224C29FD00BF64AB /* SampleDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3879BC224C29FD00BF64AB /* SampleDescriptor.swift */; };
+		FD4A48F5224E518D0027C7C4 /* Cuprum-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4A48F1224E518D0027C7C4 /* Cuprum-BoldItalic.ttf */; };
+		FD4A48F6224E518D0027C7C4 /* Cuprum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4A48F2224E518D0027C7C4 /* Cuprum-Regular.ttf */; };
+		FD4A48F7224E518D0027C7C4 /* Cuprum-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4A48F3224E518D0027C7C4 /* Cuprum-Italic.ttf */; };
+		FD4A48F8224E518D0027C7C4 /* Cuprum-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4A48F4224E518D0027C7C4 /* Cuprum-Bold.ttf */; };
+		FD4A48FB224E6BEC0027C7C4 /* AKAudioFile+seconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A48FA224E6BEC0027C7C4 /* AKAudioFile+seconds.swift */; };
+		FD9D7C3E2247F68000F34133 /* SBSamplePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D7C3D2247F68000F34133 /* SBSamplePad.swift */; };
+		FD9D7C442247F7F300F34133 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D7C432247F7F300F34133 /* Color.swift */; };
+		FD9D7C462247F85D00F34133 /* NibBackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D7C452247F85D00F34133 /* NibBackedView.swift */; };
+		FD9D7C482247F97E00F34133 /* SBSamplePad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9D7C472247F97E00F34133 /* SBSamplePad.xib */; };
+		FD9D7C4A2247FC0900F34133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9D7C492247FC0900F34133 /* Assets.xcassets */; };
+		FDADAF412248E049006F0BBD /* SamplePadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADAF3F2248E049006F0BBD /* SamplePadCell.swift */; };
+		FDADAF422248E049006F0BBD /* SamplePadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDADAF402248E049006F0BBD /* SamplePadCell.xib */; };
 		FDFF8DE921B8306500558293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF8DE821B8306500558293 /* AppDelegate.swift */; };
 		FDFF8DEB21B8306500558293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF8DEA21B8306500558293 /* ViewController.swift */; };
 		FDFF8DEE21B8306500558293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFF8DEC21B8306500558293 /* Main.storyboard */; };
-		FDFF8DF021B8306600558293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFF8DEF21B8306600558293 /* Assets.xcassets */; };
 		FDFF8DF321B8306600558293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFF8DF121B8306600558293 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +34,26 @@
 		070D8AB534A7583A0F38AB49 /* Pods-Soundbored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundbored.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soundbored/Pods-Soundbored.release.xcconfig"; sourceTree = "<group>"; };
 		24396A1FC79E8E34499693BE /* Pods-Soundbored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundbored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soundbored/Pods-Soundbored.debug.xcconfig"; sourceTree = "<group>"; };
 		C917800B87AEDA8A77DBE9C7 /* Pods_Soundbored.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundbored.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1B4EBB224F85A90076EFE8 /* debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = debounce.swift; sourceTree = "<group>"; };
+		FD3879B2224AE9B200BF64AB /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		FD3879BA224C1A7D00BF64AB /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		FD3879BC224C29FD00BF64AB /* SampleDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDescriptor.swift; sourceTree = "<group>"; };
+		FD4A48F1224E518D0027C7C4 /* Cuprum-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cuprum-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FD4A48F2224E518D0027C7C4 /* Cuprum-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cuprum-Regular.ttf"; sourceTree = "<group>"; };
+		FD4A48F3224E518D0027C7C4 /* Cuprum-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cuprum-Italic.ttf"; sourceTree = "<group>"; };
+		FD4A48F4224E518D0027C7C4 /* Cuprum-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cuprum-Bold.ttf"; sourceTree = "<group>"; };
+		FD4A48FA224E6BEC0027C7C4 /* AKAudioFile+seconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AKAudioFile+seconds.swift"; sourceTree = "<group>"; };
+		FD9D7C3D2247F68000F34133 /* SBSamplePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSamplePad.swift; sourceTree = "<group>"; };
+		FD9D7C432247F7F300F34133 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FD9D7C452247F85D00F34133 /* NibBackedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibBackedView.swift; sourceTree = "<group>"; };
+		FD9D7C472247F97E00F34133 /* SBSamplePad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SBSamplePad.xib; sourceTree = "<group>"; };
+		FD9D7C492247FC0900F34133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		FDADAF3F2248E049006F0BBD /* SamplePadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePadCell.swift; sourceTree = "<group>"; };
+		FDADAF402248E049006F0BBD /* SamplePadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePadCell.xib; sourceTree = "<group>"; };
 		FDFF8DE521B8306500558293 /* Soundbored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundbored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFF8DE821B8306500558293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDFF8DEA21B8306500558293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDFF8DED21B8306500558293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FDFF8DEF21B8306600558293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDFF8DF221B8306600558293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDFF8DF421B8306600558293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +87,64 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FD3879B1224AE75600BF64AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD3879B2224AE9B200BF64AB /* AudioEngine.swift */,
+				FD3879BC224C29FD00BF64AB /* SampleDescriptor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD3879B4224BDF9400BF64AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A48FA224E6BEC0027C7C4 /* AKAudioFile+seconds.swift */,
+				FD1B4EBB224F85A90076EFE8 /* debounce.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD4A48F9224E51970027C7C4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A48F4224E518D0027C7C4 /* Cuprum-Bold.ttf */,
+				FD4A48F1224E518D0027C7C4 /* Cuprum-BoldItalic.ttf */,
+				FD4A48F3224E518D0027C7C4 /* Cuprum-Italic.ttf */,
+				FD4A48F2224E518D0027C7C4 /* Cuprum-Regular.ttf */,
+			);
+			name = Fonts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		FD9D7C3F2247F6D200F34133 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD9D7C3D2247F68000F34133 /* SBSamplePad.swift */,
+				FD9D7C472247F97E00F34133 /* SBSamplePad.xib */,
+				FDADAF3F2248E049006F0BBD /* SamplePadCell.swift */,
+				FDADAF402248E049006F0BBD /* SamplePadCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD9D7C412247F77500F34133 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDFF8DEA21B8306500558293 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FD9D7C422247F7A800F34133 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				FDFF8DF121B8306600558293 /* LaunchScreen.storyboard */,
+				FDFF8DEC21B8306500558293 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			sourceTree = "<group>";
+		};
 		FDFF8DDC21B8306500558293 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +166,17 @@
 		FDFF8DE721B8306500558293 /* Soundbored */ = {
 			isa = PBXGroup;
 			children = (
+				FD9D7C492247FC0900F34133 /* Assets.xcassets */,
+				FD4A48F9224E51970027C7C4 /* Fonts */,
+				FD3879BA224C1A7D00BF64AB /* Samples */,
+				FD9D7C432247F7F300F34133 /* Color.swift */,
+				FD9D7C452247F85D00F34133 /* NibBackedView.swift */,
+				FD9D7C422247F7A800F34133 /* Base.lproj */,
+				FD3879B4224BDF9400BF64AB /* Extensions */,
+				FD3879B1224AE75600BF64AB /* Model */,
+				FD9D7C3F2247F6D200F34133 /* Views */,
+				FD9D7C412247F77500F34133 /* ViewControllers */,
 				FDFF8DE821B8306500558293 /* AppDelegate.swift */,
-				FDFF8DEA21B8306500558293 /* ViewController.swift */,
-				FDFF8DEC21B8306500558293 /* Main.storyboard */,
-				FDFF8DEF21B8306600558293 /* Assets.xcassets */,
-				FDFF8DF121B8306600558293 /* LaunchScreen.storyboard */,
 				FDFF8DF421B8306600558293 /* Info.plist */,
 			);
 			path = Soundbored;
@@ -147,9 +241,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9D7C482247F97E00F34133 /* SBSamplePad.xib in Resources */,
+				FD4A48F8224E518D0027C7C4 /* Cuprum-Bold.ttf in Resources */,
+				FD4A48F6224E518D0027C7C4 /* Cuprum-Regular.ttf in Resources */,
 				FDFF8DF321B8306600558293 /* LaunchScreen.storyboard in Resources */,
-				FDFF8DF021B8306600558293 /* Assets.xcassets in Resources */,
+				FDADAF422248E049006F0BBD /* SamplePadCell.xib in Resources */,
+				FD3879BB224C1A7D00BF64AB /* Samples in Resources */,
+				FD9D7C4A2247FC0900F34133 /* Assets.xcassets in Resources */,
+				FD4A48F5224E518D0027C7C4 /* Cuprum-BoldItalic.ttf in Resources */,
 				FDFF8DEE21B8306500558293 /* Main.storyboard in Resources */,
+				FD4A48F7224E518D0027C7C4 /* Cuprum-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +287,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFF8DEB21B8306500558293 /* ViewController.swift in Sources */,
+				FD3879B3224AE9B200BF64AB /* AudioEngine.swift in Sources */,
+				FD9D7C442247F7F300F34133 /* Color.swift in Sources */,
+				FD4A48FB224E6BEC0027C7C4 /* AKAudioFile+seconds.swift in Sources */,
+				FD1B4EBC224F85A90076EFE8 /* debounce.swift in Sources */,
 				FDFF8DE921B8306500558293 /* AppDelegate.swift in Sources */,
+				FDADAF412248E049006F0BBD /* SamplePadCell.swift in Sources */,
+				FD3879BD224C29FD00BF64AB /* SampleDescriptor.swift in Sources */,
+				FD9D7C462247F85D00F34133 /* NibBackedView.swift in Sources */,
+				FD9D7C3E2247F68000F34133 /* SBSamplePad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
