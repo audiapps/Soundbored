@@ -113,8 +113,7 @@
 				FD4A48F3224E518D0027C7C4 /* Cuprum-Italic.ttf */,
 				FD4A48F2224E518D0027C7C4 /* Cuprum-Regular.ttf */,
 			);
-			name = Fonts;
-			path = "New Group";
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		FD9D7C3F2247F6D200F34133 /* Views */ = {
