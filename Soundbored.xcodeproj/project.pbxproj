@@ -47,7 +47,7 @@
 		FD9D7C432247F7F300F34133 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FD9D7C452247F85D00F34133 /* NibBackedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibBackedView.swift; sourceTree = "<group>"; };
 		FD9D7C472247F97E00F34133 /* SBSamplePad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SBSamplePad.xib; sourceTree = "<group>"; };
-		FD9D7C492247FC0900F34133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		FD9D7C492247FC0900F34133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDADAF3F2248E049006F0BBD /* SamplePadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePadCell.swift; sourceTree = "<group>"; };
 		FDADAF402248E049006F0BBD /* SamplePadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePadCell.xib; sourceTree = "<group>"; };
 		FDFF8DE521B8306500558293 /* Soundbored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundbored.app; sourceTree = BUILT_PRODUCTS_DIR; };
